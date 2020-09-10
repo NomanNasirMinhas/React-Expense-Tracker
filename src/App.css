@@ -1,10 +1,14 @@
+body{
+  background-color: rgb(9, 59, 53);
+}
 .container{
   max-width: 400px;
   min-height: 450px;
   margin:0 auto;
-  background-color: #efefef;
-  box-shadow: 0 0 10px gray;
+  background-color: #294747;
+  box-shadow: 0 0 10px black;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 15px 50px;
 }
 
@@ -19,10 +23,19 @@
   box-shadow: 0 0 10px gray;
 }
 
+.expense-container h3{
+  color: black;
+}
 .transaction-form input{
   width:100%;
   margin-top: 15px;
   padding: 5px 5px;
+  background-color: floralwhite;
+  color: black;
+}
+
+.transaction-form label{
+  font-weight: bold;
 }
 
 .transaction-list{
@@ -35,8 +48,27 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
-  background-color: white;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px white;
   margin: 5px 0;
   border-radius: 4px;
+  background-color: rgb(44, 119, 119);
+  font-weight: bold;
+}
+
+*{
+  color: white;
+}
+
+button{
+  color: antiquewhite;
+  font-size: 14px;
+  font-weight: bold;
+  width: 40%;
+  height: fit-content;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: whitesmoke;
 }
